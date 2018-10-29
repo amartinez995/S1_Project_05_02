@@ -19,6 +19,8 @@ div.row {
     clear: both;
 }
 
+/* I don't understand how to do #5 */
+
 /* Grid Columns Styles */
 div[class^=column] {
     float: left;
@@ -63,6 +65,8 @@ div[class^=column25] {
 div[class^=column20] {
     width: 20%;
 }
+
+/* I wanted to be more specific with the selectors, so I selected all classes that began with [classname] for the above code */
 
 /* Grid Spacing Styles */
 div.container,
